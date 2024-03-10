@@ -1,0 +1,22 @@
+* {
+  background-color: rgb(20, 19, 19);
+  color: rgba(229, 123, 246, 0.977);
+  font-family: "Verdana", Tahoma, sans-serif;
+}
+h1 {
+  font-family: "Courier New", monospace;
+  font-size: 50px;
+  text-align: center;
+}
+h2 {
+  font-family: "Courier New", monospace;
+  font-size: 30px;
+  text-align: left;
+}
+ul,
+ol,
+p {
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  text-align: left;
+}
