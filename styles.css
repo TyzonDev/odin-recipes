@@ -1,7 +1,8 @@
 * {
-  background-color: rgb(20, 19, 19);
-  color: rgba(229, 123, 246, 0.977);
+  background-color: #222831;
+  color: #eeeeee;
   font-family: "Verdana", Tahoma, sans-serif;
+  box-sizing: border-box;
 }
 h1 {
   font-family: "Courier New", monospace;
@@ -11,7 +12,7 @@ h1 {
 h2 {
   font-family: "Courier New", monospace;
   font-size: 30px;
-  text-align: left;
+  text-align: center;
 }
 ul,
 ol,
@@ -19,4 +20,58 @@ p {
   font-family: "Courier New", monospace;
   font-size: 20px;
   text-align: left;
+}
+.recipe-option {
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px auto;
+}
+a {
+  margin: 0 auto;
+  color: white;
+}
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin: 50px auto;
+  width: 50%;
+  background-color: #31363f;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.ingredients li {
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid #76abae;
+  border-radius: 5px;
+  color: white;
+}
+hr {
+  border: 2px solid #76abae;
+  width: 100%;
+  margin: 0 auto;
+}
+img {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+.steps li {
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid #76abae;
+  border-radius: 5px;
+  color: white;
+}
+a:hover {
+  color: #76abae;
+  text-decoration: none;
 }
